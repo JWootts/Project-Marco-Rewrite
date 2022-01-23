@@ -1,0 +1,12 @@
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\bin\Debug\ProjectMarco.exe.config
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\bin\Debug\ProjectMarco.exe
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\bin\Debug\ProjectMarco.pdb
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\bin\Debug\Memory.dll
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\bin\Debug\Memory.xml
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.csprojAssemblyReference.cache
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.Properties.Resources.resources
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.csproj.GenerateResource.cache
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.csproj.CoreCompileInputs.cache
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.csproj.CopyComplete
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.exe
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.pdb
