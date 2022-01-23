@@ -10,3 +10,4 @@ C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectM
 C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.csproj.CopyComplete
 C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.exe
 C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.pdb
+C:\Users\Jordans's PC\Desktop\Project_Marco_Good\ProjectMarco\obj\Debug\ProjectMarco.Menu.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectMarco.Helpers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace ProjectMarco
 		public Menu()
 		{
 			InitializeComponent();
+		}
+
+		private void Menu_Load(object sender, EventArgs e)
+		{
+			DataExtractor.ExtractOffsetData();
 		}
 	}
 }
