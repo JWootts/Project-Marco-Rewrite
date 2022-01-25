@@ -2,15 +2,15 @@
 
 namespace ProjectMarco.Helpers
 {
-	public class MemHandler
+	public static class MemHandler
 	{
-		private Mem _mem;
+		private static Mem _mem = new Mem();
 
-		public MemHandler()
+		public static void CloseProcess() { _mem.CloseProcess(); }
+
+		public static Mem ReturnHandler()
 		{
-			_mem = new Mem();
+			return _mem;
 		}
-
-		public void CloseProcess() { _mem.CloseProcess(); }
 	}
 }

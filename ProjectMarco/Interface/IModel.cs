@@ -1,6 +1,6 @@
 ﻿namespace ProjectMarco.Interface
 {
-	interface IModel
+	public interface IModel
 	{
 		int Offset { get; set; }
 	}
