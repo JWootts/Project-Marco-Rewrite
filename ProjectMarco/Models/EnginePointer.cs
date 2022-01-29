@@ -4,18 +4,28 @@ using System;
 
 namespace ProjectMarco.Models
 {
-	public static class EnginePointer
+	public class EnginePointer : IModel
 	{
-		public static int Offset { get; set; }
+		private string _engine = "engine.dll+";
 
-		public static void WritePointer(IModel model, int offsetPlus, int toWrite)
+		public EnginePointer(int dwClientState)
 		{
-			MemHandler.ReturnHandler().WriteMemory(Convert.ToString(Offset + model.Offset + offsetPlus, 16), "float", toWrite.ToString());
+			int? returnVal = MemHandler.ReturnHandler().ReadInt(_engine + Convert.ToString(dwClientState, 16));
+			Offset = (returnVal != null ? returnVal : 0) ;
 		}
 
-		public static float ReadPointer(IModel model)
+		public int? Offset { get; set; }
+
+		public void WritePointer(IModel model, int offsetPlus, int toWrite)
 		{
-			return MemHandler.ReturnHandler().ReadFloat(Convert.ToString(Offset + model.Offset, 16));
+			int _offset = (model.Offset != null ? (int)model.Offset : 0);
+
+			MemHandler.ReturnHandler().WriteMemory(Convert.ToString((Offset != null ? (int)Offset : 0) + (model.Offset != null ? (int)model.Offset : 0) + offsetPlus, 16), "float", toWrite.ToString());
+		}
+
+		public float ReadPointer(IModel model)
+		{
+			return MemHandler.ReturnHandler().ReadFloat(Convert.ToString((Offset != null ? (int)Offset : 0) + (model.Offset != null ? (int)model.Offset : 0), 16));
 		}
 	}
 }

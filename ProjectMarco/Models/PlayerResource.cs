@@ -4,6 +4,6 @@ namespace ProjectMarco.Models
 {
 	public class PlayerResource : IModel
 	{
-		public int Offset { get; set; }
+		public int? Offset { get; set; }
 	}
 }

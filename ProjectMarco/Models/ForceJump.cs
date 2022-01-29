@@ -4,6 +4,6 @@ namespace ProjectMarco.Models
 {
 	public class ForceJump : IModel
 	{
-		public int Offset { get; set; }
+		public int? Offset { get; set; }
 	}
 }

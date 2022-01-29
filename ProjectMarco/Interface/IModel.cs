@@ -2,6 +2,6 @@
 {
 	public interface IModel
 	{
-		int Offset { get; set; }
+		int? Offset { get; set; }
 	}
 }
