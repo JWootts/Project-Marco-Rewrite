@@ -5,8 +5,6 @@ using System.Net;
 
 namespace ProjectMarco.Helpers
 {
-
-	//Will become depricated - just for now
 	public static class DataExtractor
 	{
 		private const string GITHUB_URI = "https://raw.githubusercontent.com/JWootts/marco_offsets/main/export.json";
@@ -14,6 +12,9 @@ namespace ProjectMarco.Helpers
 		public static void ExtractOffsetData()
 		{
 			ModelList _imodels = JsonConvert.DeserializeObject<ModelList>(GET(GITHUB_URI));
+
+			
+
 		}
 
 		private static string GET(string uri)

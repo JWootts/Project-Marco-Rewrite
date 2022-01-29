@@ -11,7 +11,7 @@ namespace ProjectMarco.Models
 		public EnginePointer(int dwClientState)
 		{
 			int? returnVal = MemHandler.ReturnHandler().ReadInt(_engine + Convert.ToString(dwClientState, 16));
-			Offset = (returnVal != null ? returnVal : 0) ;
+			this.Offset = (returnVal != null ? returnVal : 0) ;
 		}
 
 		public int? Offset { get; set; }
